@@ -1,0 +1,274 @@
+######################################################
+comment 4-time constant
+00['--- Acquisition Settings ---']
+01['Created on Fri Mar 11 2022']  
+02['Start data acquisition at 15:01:53']
+03['Protocol : 4-time constant']
+04[' ']
+05['--- Protocol Parameters ---']
+06['Acquisition channels : "voltage1" "current1"']
+07['Start an episode every 3 seconds']
+08['Pause after waveform series 0 seconds']
+09['Repeat protocol 3 times']
+10['Repeat each waveform, then step to next waveform']
+11['DAC Holding Levels', '0', '0', '0', '0']
+12['Erase before each episode']
+13['Episodes 2']
+14['Pulses 1']
+15['Pulse #1 : Command 1']
+16      0               : 2
+        wavrepeat       : 2
+        cnt             : 1
+        start           : 50
+        start_inc       : 0
+        dur             : 1
+        dur_inc         : 0
+        7               : 0
+        8               : 48
+        9               : 0
+        10              : 0
+        lvl             : -0.4
+        lvl_inc         : 0.8
+        13              : 0
+        14              : 1
+        15              :
+17['Pulse Tables ']
+18['false', 'false', 'false', 'false']
+['Amplitude Table Entries 0']
+['Onset Table Entries 0']
+['Width Table Entries 0']
+['Inter-Pulse Interval Table Entries 0']
+[' ']
+######################################################
+######################################################
+comment 5-input resistance
+['--- Acquisition Settings ---']
+['Created on Fri Mar 11 2022']
+['Start data acquisition at 15:02:31']
+['Protocol : 5-input resistance']
+[' ']
+['--- Protocol Parameters ---']
+['Acquisition channels : "voltage1" "current1"']
+['Start an episode every 3 seconds']
+['Pause after waveform series 0 seconds']       
+['Repeat protocol 5 times']
+['DAC Holding Levels', '0', '0', '0', '0']      
+['Erase before each episode']
+['Episodes 1']
+['Pulses 1']
+['Pulse #1 : Command 1']
+        0               : 2
+        wavrepeat       : 1
+        cnt             : 1
+        start           : 200
+        start_inc       : 0
+        dur             : 500
+        dur_inc         : 0
+        7               : 0
+        gap             : 48
+        9               : 0
+        10              : 0
+        lvl             : -0.02
+        lvl_inc         : 0.8
+        13              : 0
+        14              : 1
+        15              :
+['Pulse Tables ']
+['true', 'false', 'false', 'false']
+['Amplitude Table Entries 0']
+['Onset Table Entries 0']
+['Width Table Entries 0']
+['Inter-Pulse Interval Table Entries 0']
+[' ']
+######################################################
+######################################################
+comment 7-5AP-20Hz
+['--- Acquisition Settings ---']
+['Created on Fri Mar 11 2022']
+['Start data acquisition at 13:57:07']
+['Protocol : 7-5AP-20Hz']
+[' ']
+['--- Protocol Parameters ---']
+['Acquisition channels : "voltage1"']
+['Start an episode every 10 seconds']
+['Pause after waveform series 0 seconds']
+['Repeat protocol 1 times']
+['Repeat each waveform, then step to next waveform']
+['DAC Holding Levels', '0', '0', '0', '0']
+['Erase before each episode']
+['Episodes 1']
+['Pulses 1']
+['Train #2 : current stim #1']
+        0               : 2
+        wavrepeat       : 3
+        cnt             : 5
+        start           : 100
+        start_inc       : 0
+        dur             : 2
+        dur_inc         : 0
+        7               : 0
+        gap             : 48
+        9               : 0
+        10              : 0
+        lvl             : 1.5
+        lvl_inc         : 0
+        13              : 0
+        14              : 1
+        15              :
+['Pulse Tables ']
+['false', 'false', 'false', 'false']
+['Amplitude Table Entries 0']
+['Onset Table Entries 0']
+['Width Table Entries 0']
+['Inter-Pulse Interval Table Entries 0']
+[' ']
+######################################################
+######################################################
+comment 6-15AHP_50Hz
+['--- Acquisition Settings ---']
+['Created on Fri Mar 11 2022']
+['Start data acquisition at 13:57:18']
+['Protocol : 6-15AHP_50Hz']
+[' ']
+['--- Protocol Parameters ---']
+['Acquisition channels : "voltage1"']
+['Start an episode every 10 seconds']
+['Pause after waveform series 0 seconds']
+['Repeat protocol 1 times']
+['Repeat each waveform, then step to next waveform']
+['DAC Holding Levels', '0', '0', '0', '0']
+['Erase before each episode']
+['Episodes 1']
+['Pulses 1']
+['Train #2 : current stim #1']
+        0               : 2
+        wavrepeat       : 3
+        cnt             : 15
+        start           : 100
+        start_inc       : 0
+        dur             : 2
+        dur_inc         : 0
+        7               : 0
+        gap             : 18
+        9               : 0
+        10              : 0
+        lvl             : 1
+        lvl_inc         : 0
+        13              : 0
+        14              : 1
+        15              :
+['Pulse Tables ']
+['false', 'false', 'false', 'false']
+['Amplitude Table Entries 0']
+['Onset Table Entries 0']
+['Width Table Entries 0']
+['Inter-Pulse Interval Table Entries 0']
+[' ']
+######################################################
+######################################################
+comment 8-5AP-40Hz
+['--- Acquisition Settings ---']
+['Created on Fri Mar 11 2022']
+['Start data acquisition at 13:56:59']
+['Protocol : 8-5AP-40Hz']
+[' ']
+['--- Protocol Parameters ---']
+['Acquisition channels : "voltage1"']
+['Start an episode every 10 seconds']
+['Pause after waveform series 0 seconds']
+['Repeat protocol 1 times']
+['Repeat each waveform, then step to next waveform']
+['DAC Holding Levels', '0', '0', '0', '0']
+['Erase before each episode']
+['Episodes 1']
+['Pulses 1']
+['Train #2 : current stim #1']
+        0               : 2
+        wavrepeat       : 3
+        cnt             : 5
+        start           : 100
+        start_inc       : 0
+        dur             : 2
+        dur_inc         : 0
+        7               : 0
+        gap             : 23
+        9               : 0
+        10              : 0
+        lvl             : 1.5
+        lvl_inc         : 0
+        13              : 0
+        14              : 1
+        15              :
+['Pulse Tables ']
+['false', 'false', 'false', 'false']
+['Amplitude Table Entries 0']
+['Onset Table Entries 0']
+['Width Table Entries 0']
+['Inter-Pulse Interval Table Entries 0']
+[' ']
+######################################################
+######################################################
+comment 3-IV curve
+['--- Acquisition Settings ---']
+['Created on Fri Mar 11 2022']
+['Start data acquisition at 12:10:36']
+['Protocol : 3-IV curve']
+[' ']
+['--- Protocol Parameters ---']
+['Acquisition channels : "voltage1" "current1"']
+['Start an episode every 4 seconds']
+['Pause after waveform series 0 seconds']       
+['Repeat protocol 1 times']
+['DAC Holding Levels', '0', '0', '0', '0']      
+['Erase before each episode']
+['Episodes 26']
+['Pulses 1']
+['Pulse #1 : Command 1']
+        0               : 2
+        wavrepeat       : 2
+        cnt             : 1
+        start           : 200
+        start_inc       : 0
+        dur             : 800
+        dur_inc         : 0
+        7               : 0
+        8               : 48
+        9               : 0
+        10              : 0
+        lvl             : -0.2
+        lvl_inc         : 0.02
+        13              : 0
+        14              : 1
+        15              :
+['Pulse Tables ']
+['false', 'false', 'false', 'false']
+['Amplitude Table Entries 0']
+['Onset Table Entries 0']
+['Width Table Entries 0']
+['Inter-Pulse Interval Table Entries 0']
+[' ']
+######################################################
+comment ZAP20-amp3-30pA
+['--- Acquisition Settings ---']
+['Created on Mon Feb 15 2021']
+['Start data acquisition at 16:58:34']
+['Protocol : ZAP20-amp3-30pA']
+['Amplifier #1: Filter frequency 10 kHz']
+['Whole-cell capacitance 0 pF']
+[' ']
+['--- Protocol Parameters ---']
+['Acquisition channels : "Membrane Voltage-1"']       
+['Start an episode every 3 seconds']
+['Pause after waveform series 0 seconds']
+['Repeat protocol 1 times']
+['DAC Holding Levels', '0', '0', '0', '0']
+['Recolor old episodes gray']
+['Episodes 1']
+['Pulses -1']
+['Pulse Tables ']
+['Amplitude Table Entries 0']
+['Onset Table Entries 0']
+['Width Table Entries 0']
+['Inter-Pulse Interval Table Entries 0']
+[' ']
+######################################################
